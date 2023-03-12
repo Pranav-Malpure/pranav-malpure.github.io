@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+/*  margin-left: 20px;*/
+  padding: 0;
+/*  background-image: url('your-image-url-here');
+  background-repeat: repeat;*/
+  background-color: white;
+  background-size: auto;
+  opacity: 0.8;
+}
+
+header {
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding: 20px;
+/*  margin-left: 20px;*/
+  text-indent: 20px;
+  display: flex; /* Make the header a flex container */
+  justify-content: space-between; /* Space items out horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+nav {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;  Make the list a flex container 
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+  font-weight: transform;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 60px;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+/*  margin-left: 200px;*/
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Change the number of columns as per your requirement */
+  gap: 20px; /* Change the gap between cells as per your requirement */
+}
+
+.project-tile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-tile h3 {
+  margin-top: 0;
+}
+
+.project-tile p {
+  margin-bottom: 0;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
