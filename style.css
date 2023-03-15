@@ -22,6 +22,37 @@ header {
   align-items: center; /* Center items vertically */
 }
 
+p {
+  flex: 1; /* Expands to fill remaining space */
+}
+
+
+.profile-img {
+  float: left;
+  margin-right: 20px; /* Add some margin between the image and text */
+  border: 1px solid #ccc; /* Add a border to the image */
+  box-sizing: border-box; /* Include the border in the size of the element */
+  width: 300px; /* Adjust the width of the image as needed */
+  height: 300px; /* Adjust the height of the image as needed */
+  object-fit: cover; /* Prevent the image from stretching */
+}
+
+.about p{
+  font-size: 18px;
+  line-height: 1.5;
+/*  margin-left: 30px;*/
+  margin-right: 0px;
+  
+}
+
+.about {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
 nav {
   background-color: whitesmoke;
   padding: 10px;
@@ -68,26 +99,52 @@ section h2 {
 section ul {
   list-style: disc;
   margin-left: 20px;
+  width:100%;
 }
 .project-grid {
+  flex: 1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Change the number of columns as per your requirement */
+  grid-template-columns: repeat(2, 1fr); /* Change the number of columns as per your requirement */
   gap: 20px; /* Change the gap between cells as per your requirement */
+  flex-direction: column; 
+  width:100%;
+  box-sizing: border-box;
 }
 
 .project-tile {
-  background-color: #fff;
+  background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex:1;
+  flex-direction: column; 
+  width:100%;
+  box-sizing: border-box;
 }
 
 .project-tile h3 {
   margin-top: 0;
+  flex: 1;
+    flex-direction: column; 
+  width:100%;
+  box-sizing: border-box;
 }
 
 .project-tile p {
   margin-bottom: 0;
+
+  flex-direction: column; 
+  width:100%;
+  box-sizing: border-box;
+}
+
+.projects {
+  background-color: whitesmoke;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; 
+  width:100%;
+  box-sizing: border-box;
 }
 
 
