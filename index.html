@@ -1,103 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Pranav Malpure</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranav Malpure</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-	<header>
-		<h1>Pranav Malpure</h1>
-		<!-- <h2>3rd year UG student</h2> -->
-		<!-- <h2>Aerospace Department, IIT Bombay</h2> -->
+  <header>
+    <div class="container">
+      <nav>
+        <h1>Pranav Malpure</h1>
+        <div class="social-icons" >
+          <a href="https://linkedin.com/in/pranav-malpure"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/pranav-malpure"><i class="fab fa-github"></i></a>
+          <a href="mailto:pranavmalpure2020@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://drive.google.com/file/d/1qUOLCDvtskj52uHp8oBs1a-FcI8u3c-e/view?usp=share_link"><i class="far fa-file"></i></a>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#publications">Publications</a></li> -->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
+      </nav>
+    </div>
+  </header>
 
-	<nav>
-		<ul>
-			<li><a href="#about">About</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<!-- <li><a href="#experience">Experience</a></li> -->
-			<!-- <li><a href="#achievements">Achievements</a></li> -->
-			<!-- <li><a href="#extracurricular">Extracurricular Activities</a></li> -->
-			<!-- <li><a href="#blog">Blog</a></li> -->
-			<!-- <li><a href="#portfolio">Portfolio</a></li> -->
-		</ul>
-	</nav>
-	</header>
-	<main>
-		<section>
-		  <div class="about">
-		    <img src="profile_image.jpg" alt="Profile Picture" class="profile-img">
-		    <b><h1>About Me</b></h1>
-		    <p>I am an undergraduate student in the Aerospace Department at IIT Bombay. My research interests lie in robotics, UAVs and Controls. I want to make a positive impact in the world and working towards it.</p>
-		</div>
-		</section>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
 
+        <div class="container_pp">
+          <img src="profile_image.jpg" alt="image" class="image_pp" width="300" height="200">
+          <p> I am an undergraduate student in the Aerospace Department at IIT Bombay. My research interests lie in robotics, UAVs and Controls. I want to make a positive impact in the world and working towards it. 
+          </p>
+        </div>
 
-		<section>
-			<div class = "projects">
-		  <h2>Projects</h2>
-		  <div class="project-grid">
-		    <div class="project-tile">
-		      <h3><center>The Humanoid Project</center></h3>
-		      <img src="Humanoid.png" alt="Profile Picture" class="profile-img">
-		      <p><center>
-		      	Developing a Humanoid which can help sort books in the library. Working in the controls and designing subsystem. </center>
-		      </p>
-		    </div>
-		    <div class="project-tile">
-		      <h3><center>Quadruped</center></h3>
-		      <img src="quadruped.png" alt="Profile Picture" class="profile-img">
-		      <p><center>Building a quadruped which is able to walk in certain direction based on camera input. Work includes finding equations of motion, designing controller, trajectory planning, and manufacturing it.</center></p>
-		    </div>
-		    <div class="project-tile">
-		      <h3><center>Autonomous landing of UAVs on Moving surface</center></h3>
-		      <p><center>Designing a controller to achieve autonomous landing by quadrotor on a surface using Aruco markers.</center></p>
-		    </div>
-		    <div class="project-tile">
-		      <h3><center>Autonomous underwater navigation</center></h3>
-		      <img src="uuv_rexrov2.png" alt="Profile Picture" class="profile-img">
-		      <p><center>Autonomously navigated an underwater vehicle using curvature velocity method to avoid obstacles.</center></p>
-		    </div>
-		    <!-- Add more project tiles as needed -->
-		    <div class="project-tile">
-		      <h3><center>Multi-Robot Graph exploration</center></h3>
-		      <p><center>Researched a novel method to explore a cyclic graph in the least possible time using multiple robots, through their optimal placement. It involved using the already existing MR-DFS method.</center></p>
-		    </div>
-		    <div class="project-tile">
-		      <h3><center>Network graph based reasoning</center></h3>
-		      <p><center>Developed an algorithm based on network graphs which has ability of reasoning. It can answer queries based on random facts passed to the system.</center></p>
-		    </div>
-		  </div>
-		</div>
-		</section>
+    </div>
+   
+  </section>
 
+<!--   <section id="publications">
+    <div class="container">
+      <h2>Publications</h2>
+      <ul>
+        <li>[1] Abhinav Raghuvanshi, Anirudh Mittal, Siddhesh Pawar (2022) "Agree To Disagree" (under review ACL 2023)</li>
+      </ul>
+    </div>
+  </section> -->
 
-		<section id="contact">
-			<h3>Reach out to me at</h3>
-			<p>Email: 200010055@iitb.ac.in</p>
-		</section>
+  <section id="projects">
+    <div class="container">
+      <h2>Projects (Incomplete List)</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="Humanoid.png" alt="Project 1">
+            <h3>The Humanoid Project</h3>
+            <p>Developing a Humanoid which can help sort books in the library. Working in the controls and designing subsystem</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="quadruped.png" alt="Project 2">
+            <h3>Quadruped</h3>
+            <p>Building a quadruped which is able to walk in certain direction based on camera input. Work includes finding equations of motion, designing controller, trajectory planning, and manufacturing it</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="uav.png" alt="Project 3">
+            <h3>Autonomous landing of UAVs on Moving surface</h3>
+            <p>Designing a controller to achieve autonomous landing by quadrotor on a surface using Aruco markers</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="uuv_rexrov2.png" alt="Project 4">
+            <h3>Autonomous underwater navigation</h3>
+            <p>Autonomously navigated an underwater vehicle using curvature velocity method to avoid obstacles</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="Multi_robot navigation.png" alt="Project 5">
+            <h3>Multi-Robot Graph exploration</h3>
+            <p>Researched a novel method to explore a cyclic graph in the least possible time using multiple robots, through their optimal placement. It involved using the already existing MR-DFS method</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="reasoning.png" alt="Project 6">
+            <h3>Network graph based reasoning</h3>
+            <p>Developed an algorithm based on network graphs which has ability of reasoning. It can answer queries based on random facts passed to the system</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="contact">
+    <div class="container">
+      <!-- <h2>Contact Me</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <form action="#" method="post">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message">
+          </form>
+        </div> -->
+        <div class="col-12 col-md-6">
+          <h3>Get In Touch</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Hostel 5, Students' Residential Zone, IIT Area, Powai, Mumbai, MH, India</p>
+          <p><i class="fas fa-envelope"></i> pranavmalpure2020@gmail.com</p>
+          <!-- <p><i class="fas fa-phone"></i> </p> -->
+          
+        </div>
+      </div>
+    </div>
+  </section>
 
-		
-<!-- 		<section id="blog">
-			<h3>Blog</h3>
-			<p>If you enjoy writing, consider adding a blog section to your website where you can share your thoughts and ideas on topics related to your field of study or other interests.</p>
-		</section> -->
-<!-- 
-		<section id="portfolio">
-			<h3>Portfolio</h3>
-			<p>If you have a portfolio of work to showcase, such as graphic design, photography, or coding projects, consider adding a section to your website where you can display your work and provide more information about each project.</p>
-		</section> -->
-		</main>
-	<div>
-<!-- 	<script src="https://climateclock.world/widget-v1.js" async></script>
-<climate-clock />	
-	</div>
-	 -->
-<footer>
-	<p>Keep learning!</p>
-</footer>
+  <footer>
+    <div class="container">
+      <p>Keep Learning!</p>
+    </div>
+  </footer>
+
 </body>
 </html>
-		
