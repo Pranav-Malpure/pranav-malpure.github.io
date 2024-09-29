@@ -20,7 +20,7 @@
         </div>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#publications">Publications</a></li>
+<!--           <li><a href="#publications">Publications</a></li> -->
           <li><a href="#In-the-News">In The News</a></li> 
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -36,8 +36,10 @@
       <h2>About Me</h2>
 
         <div class="container_pp">
-          <img src="profile_image.jpg" alt="image" class="image_pp" width="300" height="200">
-          <p> I am a fourth year undergraduate student in the Aerospace Department at IIT Bombay. My research interests lie at the intersection of AI, Robotics, UAVs and Controls. Currently I am working on project aiming to improve dexterous object gripping by manipulators. I like to solve hard problems and learn something new!  
+          <img src="profile_image.jpeg" alt="image" class="image_pp" width="300" height="200">
+          <p> I am Pranav Malpure, an MS ECE in Robotics (Intelligent Systems, Robotics and Controls) student at UCSD. I have profound interest in robotics and automation inspired by its potential to create a huge impact in the lives of people.<br>
+            
+Previously at IIT-Bombay, I have worked on many robotics projects until now and they have given me a good grasp over ROS-Gazebo simulation, controls, navigation and RL in Robotics. I am excited by the huge role AI can and will play in robotics and am looking to explore the field of robot learning further. <br> I like to solve hard problems and learn something new!  
           </p>
         </div>
 
@@ -45,14 +47,14 @@
    
   </section>
 
-  <section id="publications">
+<!--   <section id="publications">
     <div class="container">
       <h2>Publication Under review</h2>
       <ul>
         <li>[1] Pranav Malpure, Sanjeev Kannan, Prajakta Surve, Leena Vachhani and Arpita Sinha, "Bounds on the Minimum Exploration Time on a Graph using Multiple Robots" (under review DARS 2024)</li>
       </ul>
     </div>
-  </section>
+  </section> -->
   
  <style>
     #In-the-News{
@@ -73,38 +75,36 @@
     <div class="container">
       <h2>Projects (Incomplete List)</h2>
       <div class="row">
+        
         <div class="col-12 col-md-6">
           <div class="project">
-            <img src="Humanoid.png" alt="Project 1">
-            <h3>The Humanoid Project</h3>
-            <p>Leading a Humanoid team at college which can help sort books in the library and identify books placed in wrong shelves. Responsible for integrating the tasks of various subsystems - AI, Electronics, Controls and Robot Design.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="project">
-          <a href="https://github.com/Pranav-Malpure/B-Tech-Project">
-            <img src="btp.png" alt="Project 2">
-          </a>
+          <img src="btp.png" alt="Project 1">
             <h3>Force based dexterous manipulation</h3>
-            <p>Researching about RL controlled manipulation to be used to identify and grip basic objects like cylinders, based on image as well as force feedback</p>
+            <p>Researched under <a href"https://www.sc.iitb.ac.in/~mayank/">Prof. Mayank Baranwal</a> in RL controlled manipulation. Developed a model for inverse kinematics of 6 DOF arm, based on it's joint position, velocities and end effector position feedback. <a href="https://github.com/Pranav-Malpure/B-Tech-Project">Code </a> </p>
           </div>
         </div>
+        <div class="col-12 col-md-6">
+          <div class="project">
+            <img src="Humanoid.png" alt="Project 2">
+            <h3>The Humanoid Project</h3>
+            <p>Led the Humanoid team at IIT Bombay working on building humanoids ground up. Responsible for technical overview and integration of the tasks of subsystems - AI, Electronics, Controls and Robot Design.</p>
+          </div>
+        </div>
+        
       </div>
     <div class="row">
       <div class="col-12 col-md-6">
           <div class="project">
-            <a href="https://github.com/Pranav-Malpure/uuv_navigation">
-              <img src="uuv_rexrov2.png" alt="Project 4">
-            </a>
+            <img src="uuv_rexrov2.png" alt="Project 4">
             <h3>Autonomous underwater navigation</h3>
-            <p>Programmed RexROV2 to autonomously navigate underwater using curvature velocity method to avoid obstacles. Simulated in Gazebo</p>
+            <p>Programmed RexROV2 to autonomously navigate underwater using curvature velocity method to avoid obstacles. Simulated in an underwater world in Gazebo. <a href="https://github.com/Pranav-Malpure/uuv_navigation">Code</a></p>
           </div>
         </div>
       <div class="col-12 col-md-6">
         <div class="project">
           <img src="for_website_visibility_graph.png" alt="Project 4">
-          <h3>Visibility Graphs(Flytbase Labs)</h3>
-          <p>Devised a novel technique to optimize the addition of new polygons in existing visibility graphs for drones. Reduced the recalculation time by around 92%.</p>
+          <h3>Visibility Graphs(Research Internship at <a href="">Flytbase Labs</a>)</h3>
+          <p>Devised a novel technique to optimize the addition of new polygons in existing visibility graphs for drones. Reduced the recalculation time by around <b>92%</b>.</p>
         </div>
 
         
@@ -114,14 +114,14 @@
           <div class="project">
             <img src="Multi_robot navigation.png" alt="Project 5">
             <h3>Multi-Robot Graph exploration</h3>
-            <p>Conducted research to solve the problem of optimal placement of multiple robots in a cyclic graph, to explore the entire graph in minimum possible time. The robots use MR-DFS algorithm. This was done building on this paper: <a href="https://link.springer.com/article/10.1007/s10846-015-0309-9"><i class="far fa-file"></i></a></p>
+            <p>Researched under <a href="https://sites.google.com/iitb.ac.in/arpitasinha">Prof. Arpita Sinha</a> to solve the problem of optimal placement of multiple robots in a cyclic graph, to explore the entire graph in minimum possible time. The robots use MR-DFS algorithm. Built on the paper: <a href="https://link.springer.com/article/10.1007/s10846-015-0309-9"><i class="far fa-file"></i></a></p>
           </div>
         </div>
         <div class="col-12 col-md-6">
           <div class="project">
             <img src="reasoning.png" alt="Project 6">
             <h3>Network graph based reasoning(Jio Platforms Ltd)</h3>
-            <p>Developed an algorithm based on network graphs which has ability of reasoning. It can answer queries based on random facts passed to the system</p>
+            <p>Developed an algorithm based on network graphs functioning as a logic network, answering logical queries based on a knowledge base.</p>
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@
         </div> -->
         <div class="col-12 col-md-6">
           <h3>Get In Touch</h3>
-          <p><i class="fas fa-map-marker-alt"></i> Hostel 17, Students' Residential Zone, IIT Area, Powai, Mumbai, MH, India</p>
+          <p><i class="fas fa-map-marker-alt"></i> OMS Apartments, One Miramar Street, La Jolla, CA 92092</p>
           <p><i class="fas fa-envelope"></i> pranavmalpure2020@gmail.com </p>
           <!-- <p><i class="fas fa-phone"></i> </p> -->
           
@@ -156,7 +156,7 @@
   <footer>
     <div class="container">
       <p>Keep Learning!</p>
-      <h6><i>Last updated on February 6, 2024</i></h6>
+      <h6><i>Last updated on September 28, 2024</i></h6>
     </div>
   </footer>
 
