@@ -347,11 +347,13 @@ ul li a {
 }
 
 .logo-img {
-  height: 60px;
+  max-height: 60px;
+  max-width: 110px; /* or whatever fits your layout */
   width: auto;
+  height: auto;
   vertical-align: middle;
+  display: inline-block;
 }
-
 
 
 
