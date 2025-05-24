@@ -72,8 +72,8 @@ exclude:
 include:
   - _pages
 
-url: "https://sai-aneesh.github.io" # the base hostname & protocol for your site
-baseurl: 
+url: "https://pranavmalpure.github.io" # the base hostname & protocol for your site
+baseurl: "" 
 
 #
 # !! You don't need to change any of the configuration flags below !!
